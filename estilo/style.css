@@ -1,0 +1,87 @@
+@charset "UTG-8";
+
+/*Faz uma configuração global dos elementos*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(0, 0, 141, 0.87);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}
+
+
+header{
+    text-align: center;
+    padding-top: 20px;
+    background-image: linear-gradient(to top, rgb(0, 2, 141), rgba(255, 255, 255, 0.349));
+}
+
+header > h1 {
+    font-size: 5.5em;
+    color: white;
+}
+
+header > p{
+    padding-bottom: 20px;
+    color: white;
+}
+
+nav {
+    background-color: rgba(0, 1, 51, 0.712);
+    padding: 20px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    color: rgb(0, 4, 231)
+}
+
+#integrantes{
+    text-align: center;
+}
+
+#integrantes > h2{
+    padding: 10px;
+}
+
+.integrantes > h3{
+    padding: 10px;
+    color: white;
+}
+
+.integrante{
+    margin-bottom: 40px;
+}
+
+.integrante > p {
+    text-align: center;
+    padding: 10px;
+}
+
+.integrante > h2 {
+    font-size: 1.3em;
+}
+
+.integrante > img{
+    border-radius: 50%;
+}
+
+.integrante > p > a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.integrante > p > a:hover{
+    color: rgb(144, 146, 255)
+}
