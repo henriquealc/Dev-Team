@@ -1,4 +1,6 @@
-@charset "UTG-8";
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /*Faz uma configuração global dos elementos*/
 *{
@@ -12,21 +14,30 @@ body{
     color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 header{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     background-image: linear-gradient(to top, rgb(0, 2, 141), rgba(255, 255, 255, 0.349));
 }
 
 header > h1 {
-    font-size: 5.5em;
     color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    font-size: 5.5em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 header > p{
-    padding-bottom: 20px;
     color: white;
+    padding-bottom: 20px;
+    font-size: 1em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+
 }
 
 nav {
@@ -48,15 +59,16 @@ nav > a:hover{
 
 #integrantes{
     text-align: center;
+    padding: 3px;
 }
 
 #integrantes > h2{
     padding: 10px;
 }
 
-.integrantes > h3{
-    padding: 10px;
+.integrante > h3{
     color: white;
+    padding: 2px;
 }
 
 .integrante{
@@ -64,12 +76,18 @@ nav > a:hover{
 }
 
 .integrante > p {
-    text-align: center;
-    padding: 10px;
+    font-size: 1em;
+    padding: 5px;
+    text-indent: 20px;
+    line-height: 1.5em;
 }
 
 .integrante > h2 {
     font-size: 1.3em;
+}
+
+.integrante > p > img{
+    padding: 3px;
 }
 
 .integrante > img{
@@ -83,5 +101,52 @@ nav > a:hover{
 }
 
 .integrante > p > a:hover{
-    color: rgb(144, 146, 255)
+    color: rgba(0, 1, 51, 0.897)
+}
+
+#tarefas {
+    text-align: center;
+}
+
+#tarefas > table > caption{
+    padding: 10px;
+    background-color: rgba(0, 1, 51, 0.842);
+}
+
+#tarefas > table{
+    padding: 10px;
+    width: 70%;
+    border-collapse: collapse;
+    margin: 0 auto; /*centraliza a tabela*/
+
+}
+
+td, th{
+    border: 1.5px solid black;
+    padding: 10px;
+}
+
+/*Faz o efeito zebrado na lista*/
+div#tarefas tr:nth-child(even){
+    background-color: rgba(0, 1, 51, 0.712);
+}
+
+#sobre{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+#sobre > p{
+    padding: 10px;
+}
+
+#sobre > p > img{
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgba(0, 1, 51, 0.712);
+    padding: 10px;
 }
