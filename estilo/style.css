@@ -131,6 +131,10 @@ div#tarefas tr:nth-child(even){
     background-color: rgba(0, 1, 51, 0.712);
 }
 
+div#tarefas{
+    overflow: auto;
+}
+
 #sobre{
     margin: 20px;
     text-align: center;
