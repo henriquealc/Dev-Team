@@ -53,6 +53,7 @@ nav > a{
     font-weight: bold;
 }
 
+/*Cria efeito ao passar o mouse*/
 nav > a:hover{
     color: rgb(0, 4, 231)
 }
@@ -90,6 +91,7 @@ nav > a:hover{
     padding: 3px;
 }
 
+/* Coloca as fotos dos integrantes em formato redondo*/
 .integrante > img{
     border-radius: 50%;
 }
