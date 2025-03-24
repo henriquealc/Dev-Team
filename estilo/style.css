@@ -14,34 +14,37 @@ body{
     color: white;
 }
 
+/*Adiciona o efeito de descida ao clicar no elemento do menu navegação*/
 html{
     scroll-behavior: smooth;
 }
 
+/*Configura o header*/
 header{
-    text-align: center;
-    padding-top: 10px;
+    text-align: center; /*Centraliza o titulo e o paragrafo abaixo do titulo*/
+    padding-top: 10px; /*Cria um pouco mais de espaço na parti de cima do titulo*/
     background-image: linear-gradient(to top, rgb(0, 2, 141), rgba(255, 255, 255, 0.349));
 }
 
+
 header > h1 {
     color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: normal;
-    font-size: 5.5em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-family: 'Bebas Neue', sans-serif; /*Defini uma fonte diferente das outras usadas*/
+    font-weight: normal; /*Remove o negrito do titulo*/
+    font-size: 5.5em; /*Tamanho das letras*/
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267); /*Adiciona sombra*/
 }
 
 header > p{
     color: white;
     padding-bottom: 20px;
-    font-size: 1em;
+    font-size: 1em; /*Defini o tamanho da fonte do paragrafo no header*/
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 
 }
 
 nav {
-    background-color: rgba(0, 1, 51, 0.712);
+    background-color: rgba(0, 1, 51, 0.712); /*Cor de fundo do nav*/ 
     padding: 20px;
 }
 
@@ -59,7 +62,7 @@ nav > a:hover{
 }
 
 #integrantes{
-    text-align: center;
+    text-align: center; /*Centraliza todos os elementos dentro do id integrantes*/
     padding: 3px;
 }
 
@@ -70,21 +73,23 @@ nav > a:hover{
 .integrante > h3{
     color: white;
     padding: 2px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 141);
 }
 
 .integrante{
-    margin-bottom: 40px;
+    margin-bottom: 40px; /*Cria um espaçamento entre cada integrante*/
 }
 
 .integrante > p {
     font-size: 1em;
     padding: 5px;
-    text-indent: 20px;
+    text-indent: 20px; /*Cria um identação nos interesses dos integrates*/
     line-height: 1.5em;
 }
 
 .integrante > h2 {
     font-size: 1.3em;
+    text-shadow: 2px 2px 0px rgb(0, 0, 141);
 }
 
 .integrante > p > img{
