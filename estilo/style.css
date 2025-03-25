@@ -52,7 +52,6 @@ nav > a{
     color: white;
     text-decoration: none;
     padding: 30px;
-    border-radius: 5px;
     font-weight: bold;
 }
 
@@ -60,6 +59,17 @@ nav > a{
 nav > a:hover{
     color: rgb(0, 4, 231)
 }
+
+/*Configuração do botão*/
+#botaomudarcor{
+    background-color: rgba(0, 1, 51, 0.712);
+    border: none;
+    font-size: 1.3em;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 1px solid black;
+}
+
 
 #integrantes{
     text-align: center; /*Centraliza todos os elementos dentro do id integrantes*/
